@@ -1,0 +1,786 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+
+
+footer {
+    width: 95%;
+    height: 120px;
+    background-color: #203d57;
+    margin-top: 1320px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+h3{
+    font-size: 18px;
+    color: #2a445a;
+    font-family: 'Jost', sans-serif;
+   text-align: center;
+}
+
+.hDeArticulosEnfermedades {
+    font-size: 19px;
+    color: #203d57;
+    font-family: 'Jost', sans-serif;
+}
+.hDeArticulosEnfermedadesCovid {
+    font-size: 40px;
+    color: #203d57;
+}
+.sintomas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+        
+    }
+.iconosSintomas{
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    
+}
+
+
+
+.hDeArticulos {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+
+
+.pDeArticulos {
+    font-size: 19px;
+    color: #2a445a;
+}
+.pDeArticulosEnfermedades {
+    font-size: 12px;
+    color: #2a445a;
+    font-family: 'Jost', sans-serif;
+}
+.pDeArticulos {
+    font-size: 13px;
+    color: #2a445a;
+    font-family: 'Jost', sans-serif;
+}
+
+.contenedoraHeader {
+    display: flex;
+    height: 5em;
+}
+
+
+
+.encuesta{
+   margin-top: 20px;
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 11px;
+    position: relative;
+    background-image:url(../img/fondoTest.jpg);
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+
+.hospitalesEspecializados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hospital{
+    width: 200px;
+}
+
+
+
+
+
+.nombre{
+    width: 40%;
+    font-size: 11px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.apellido{
+    width: 40%;
+    font-size: 11px;
+    position: absolute;
+    left: 205px;
+    top: 0;
+    
+}
+.columna{
+    display: block;
+  flex-direction: column;
+   
+            position: absolute;
+    left: 10px;
+    top: 90px;
+
+}
+
+.dni{
+    width: 20%;
+    font-size: 11px;
+        position: absolute;
+    left: 400px;
+    top: 0;
+}
+
+.telefono{
+    width: 20%;
+    font-size: 11px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+
+.provincia{
+    width: 20%;
+    font-size: 11px;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+
+.sexo{
+    width: 20%;
+    font-size: 11px;
+    position: absolute;
+    left: 400px;
+    top: 44px;
+}
+
+
+.viaje{
+    width: 20%;
+    font-size: 11px;
+    position: absolute;
+    left: 100px;
+    top: 0; 
+}
+
+.myButton{
+    width: 21%;
+    font-size: 11px;
+    position: absolute;
+    left: 400px;
+    top: 238px; 
+}
+
+
+
+
+
+.logo {
+    width: 30%;
+}
+
+
+.logoRF {
+    width: 60%;
+    margin-left: 15%
+}
+
+.menu {
+    width: 50%;
+}
+
+.buscador {
+
+    width: 16%;
+    padding: 45px 0px 15px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.buscadorEnfermedades {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.lupa {
+    background-color: #c3c0c0;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+   
+}
+
+.lupaEnfermedades {
+    background-color: #69b1ef;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+  
+    
+}
+
+
+.degradeTop {
+    height: 10px;
+    background: linear-gradient(to bottom, #717070, #ffffff);
+}
+
+
+.central {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    position: relative;
+    
+  
+;
+}
+
+
+
+
+
+.contenedorMenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.contenedorMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+    padding-top: 45px;
+    padding-bottom: 12px;
+
+}
+
+.contenedorMenu a:hover {
+    background-color: rgb(105, 177, 239);
+    width: 100%;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    background-url: http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
+
+}
+
+
+.contenedorMenu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    transition-duration: 0.99s
+}
+
+
+
+
+.aSecciones {
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+.slider {
+    width: 100%;
+    margin-bottom: 170px;
+}
+.sliderTransparencia {
+    width: 100%;
+    margin-bottom: 170px;
+    opacity: 0%;
+}
+
+.tresSecciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 315px;
+}
+.cincoSecciones {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 95%;
+    background-color: aqua
+}
+
+
+
+
+
+.secciones1 {
+    width: 25%;
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.01), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    margin-left: 150px;
+}
+
+.enfermedadesimagen{
+    width: 98.7%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.secciones1Enfermedades {
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.secciones2Enfermedades {
+    width:30%;
+    margin-top: 0;
+    box-sizing: border-box;
+    padding-right: 1%;
+    padding-top: 1%;
+    text-align:justify;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    margin-left: -180px;
+    
+    
+
+}
+
+.secciones3Enfermedades {
+        width:47%;
+    margin-top: 0;
+    box-sizing: border-box;
+    padding: 1.5% 2% 1% 2%;
+    text-align:justify;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+     margin-left: 300px;
+  
+   
+    
+}
+
+
+    
+
+
+    
+    
+
+
+
+
+
+
+.iconoTelefono {
+    width: 10%;
+    text-align: center
+}
+
+
+
+
+
+.cientocuarentayocho {
+    width: 15%;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    padding: .5%;
+    margin-right: 30px;
+}
+
+
+
+
+
+.siTenes {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    color: #fff;
+    margin-left: 11px;
+}
+
+
+
+
+
+.buscador {
+
+    width: 16%;
+    padding: 45px 0px 15px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.lupaEnfermedades {
+    background-color: #69b1ef;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+  
+    
+}
+
+
+
+
+
+
+.ingresoDeDatos {
+    height: 26px;
+    background-color: #e8eae9;
+      border-bottom-left-radius: 10px;
+}
+.ingresoDeDatosEnfermedades{
+    height: 26px;
+    background-color: #e8eae9;
+    width: 300px;
+     border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    color: #69b1ef;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+.footerMenu li {
+    list-style: none;
+     margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+   
+}
+
+
+
+
+
+.redes {
+    width: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    align-items: center;
+}
+
+
+
+
+
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #69b1ef;
+    font-weight: 900;
+    margin-left: 10px;
+    height: 10px;
+    line-height: 15px;
+}
+
+
+
+
+
+.direccionFacebook {
+    color: #69b1ef;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: 'Jost', sans-serif;
+    height: 10px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:10px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.radioButoonA{
+    padding-right:13px;
+}
+.radioButoonB{
+    padding-right: 100px;
+}
+
+.radioButoonC{
+    padding-right: 90px;
+}
+
+.radioButoonD{
+    padding-right: 135px;
+}
+
+.radioButoonE{
+    padding-right: 125px;
+}
+
+.radioButoonF{
+    padding-right: 128px;
+}
+.radioButoonG{
+    padding-right: 105px;
+}
+
+
+
+
+.tituloPrecauciones{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 660px;
+    background-color: #69b1ef;
+padding-left: 340px;
+   padding-right: 340px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+   
+}
+
+
+
+
+.grillaPrecauiciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 687px;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    width: 70%;
+    
+   
+
+
+}
+.imgPrecaucion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.precaucion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    margin: 0 30px;
+
+}
+.hospitalesEspecializados{
+
+    position: absolute;
+    top: 960px;
+    background-color: #69b1ef;
+    width: 95%;
+    border-radius: 20px;
+
+    
+}
+.tituloHospitales{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+
+.datoHospital{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    width: 55%;
+    
+    
+}
+
+.fotoHospital{
+   margin-left: 200px; 
+    width: 30%;
+    
+}
+
+.mapaHospital{
+    width: 30%;
+   margin-top: 10px;
+    margin-left: -250px;
+    margin-right: 220px;
+    
+}
+.hospital{
+    border-radius: 10px;
+}
+.mapaGoogle{
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    
+   
+}
+
+
+
+
+
+
+#nombre  {
+    border-radius: 10px;
+}
+#apellido  {
+    border-radius: 10px;
+}
+#dni  {
+    border-radius: 10px;
+}
+#telefono  {
+    border-radius: 10px;
+}
+#provincia  {
+    border-radius: 10px;
+}
+#direccion  {
+    border-radius: 10px;
+}

@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+footer {
+    width: 95%;
+    height: 120px;
+    background-color: #203d57;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.contenedoraHeader {
+    display: flex;
+    height: 5em;
+}
+.logo {
+    width: 30%;
+}
+.logoRF {
+    width: 60%;
+    margin-left: 15%
+}
+.menu {
+    width: 50%;
+}
+.buscador {
+
+    width: 16%;
+    padding: 45px 0px 15px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.lupa {
+    background-color: #c3c0c0;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+   
+}
+.degradeTop {
+    height: 10px;
+    background: linear-gradient(to bottom, #717070, #ffffff);
+}
+.contenedorMenu ul {
+    display: flex;
+    justify-content: center;
+}
+.contenedorMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+    padding-top: 45px;
+    padding-bottom: 12px;
+
+}
+.contenedorMenu a:hover {
+    background-color: rgb(105, 177, 239);
+    width: 100%;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    background-url: http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
+
+}
+.contenedorMenu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    transition-duration: 0.99s
+}
+.buscador {
+
+    width: 16%;
+    padding: 45px 0px 15px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.ingresoDeDatos {
+    height: 26px;
+    background-color: #e8eae9;
+      border-bottom-left-radius: 10px;
+}
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    color: #69b1ef;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+.redes {
+    width: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    align-items: center;
+}
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #69b1ef;
+    font-weight: 900;
+    margin-left: 10px;
+    height: 10px;
+    line-height: 15px;
+}
+.direccionFacebook {
+    color: #69b1ef;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: 'Jost', sans-serif;
+    height: 10px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+
+
+.encuesta{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    
+    
+}
+.hospitalesEspecializados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+    
+}
+.hospital{
+    width: 200px;
+}
+
+
+
+
+
+.nombre{
+    width: 47%;
+    font-size: 15px;
+
+
+}
+.apellido{
+    width: 47%;
+    font-size: 15px;
+    margin-left: 27px;
+    
+}
+
+
+.dni{
+    width: 47%;
+    font-size: 15px;
+}
+
+.telefono{
+    width: 47%;
+    font-size: 15px;
+     margin-left: 27px;
+}
+.email{
+        width: 100%;
+    font-size: 15px;
+}
+.consulta{
+        width: 100%;
+    font-size: 15px;
+}
+
+
+
+
+.hDeFormulario{
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.fDatos {
+    width:40%;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+  
+}
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+.footerMenu li {
+    list-style: none;
+     margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+   
+}
+
+
+
+
+
+.datoHospital{
+    font-size: 12px;
+    color: #007dc1;
+    font-family: 'Jost', sans-serif;
+    width: 45%;
+ 
+    margin-top: 10px;
+
+}
+
+.fotoHospital{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+ width: 100;
+
+    margin-bottom: 10px;
+flex-wrap: wrap
+    
+}
+
+
+    
+
+
+
+.hospital{
+    border-radius: 10px;
+    margin-left: 7px;
+    width: 50%;
+}
+
+
+.mapaGoogle{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myButton{
+    width: 21%;
+    font-size: 11px;
+    left: 400px;
+    top: 238px; 
+}
+
+
+
+
+
+
+
+
+.central {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fContacto {
+    width:40%;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+  
+   
+}
+
+
+
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:10px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+
+
+.enviar{
+
+
+    display: block;width: 90%;
+    text-align: right;
+   
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nombre  {
+    border-radius: 10px;
+    width: 95%;
+    height: 25px;
+   
+}
+#apellido  {
+    border-radius: 10px;
+    width: 95%;
+    height: 25px;
+}
+#dni  {
+    border-radius: 10px;
+    width: 95%;
+    height: 25px;
+}
+#telefono  {
+    border-radius: 10px;
+    width: 95%;
+    height: 25px;
+}
+#correo {
+    border-radius: 10px;
+    width: 98%;
+    height: 25px;
+}
+#consulta {
+    border-radius: 10px;
+    width: 98%;
+}
+
+
+

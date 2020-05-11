@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+
+
+footer {
+    width: 95%;
+    height: 120px;
+    background-color: #203d57;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contenedoraHeader {
+    display: flex;
+    height: 5em;
+}
+
+
+
+
+
+
+
+.hospitalesEspecializados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hospital{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    width: 30%;
+}
+
+
+.logoRF {
+    width: 60%;
+    margin-left: 15%
+}
+
+.menu {
+    width: 50%;
+}
+
+.buscador {
+
+    width: 16%;
+    padding: 45px 0px 15px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+
+.lupa {
+    background-color: #c3c0c0;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+   
+}
+
+
+
+
+.degradeTop {
+    height: 10px;
+    background: linear-gradient(to bottom, #717070, #ffffff);
+}
+
+
+
+
+
+
+
+
+.contenedorMenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.contenedorMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+    padding-top: 45px;
+    padding-bottom: 12px;
+
+}
+
+.contenedorMenu a:hover {
+    background-color: rgb(105, 177, 239);
+    width: 100%;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    background-url: http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
+
+}
+
+
+.contenedorMenu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    transition-duration: 0.99s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ingresoDeDatos {
+    height: 26px;
+    background-color: #e8eae9;
+      border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    color: #69b1ef;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+
+
+
+
+
+.redes {
+    width: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    align-items: center;
+}
+
+
+
+
+
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #69b1ef;
+    font-weight: 900;
+    margin-left: 10px;
+    height: 10px;
+    line-height: 15px;
+}
+
+
+
+
+
+.direccionFacebook {
+    color: #69b1ef;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: 'Jost', sans-serif;
+    height: 10px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hospitalesEspecializados{
+    background-color: #69b1ef;
+    width: 95%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    
+}
+.tituloHospitales{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+
+.datoHospital{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    width: 55%;
+    
+    
+}
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+.footerMenu li {
+    list-style: none;
+     margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+   
+}
+
+
+.mapaHospital{
+  width: 100%
+   margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.hospital{
+    border-radius: 10px;
+}
+.mapaGoogle{
+
+    border-radius: 20px;
+    margin-bottom: 5px;
+    
+   
+}
+
+
+
+
+

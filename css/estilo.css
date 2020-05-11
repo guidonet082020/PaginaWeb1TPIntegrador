@@ -1,0 +1,596 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+
+
+aside {
+    width: 77%;
+    display: flex;
+    height: 80px;
+    background-color: #43729a;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+
+
+footer {
+    width: 95%;
+    height: 120px;
+    background-color: #203d57;
+    margin-top: 8px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.enfermedades{
+    width: 77%;
+    display: flex;
+    height: 80px;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.secciones1:hover {
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.1));
+}
+
+
+
+
+.secciones2:hover {
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.1));
+}
+
+
+
+
+.secciones3:hover {
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.1));
+}
+
+
+
+
+
+.hDeArticulos {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+.pDeArticulos {
+    font-size: 15px;
+    color: #2a445a;
+}
+.pDeArticulosEnfermedades {
+    font-size: 10px;
+    color: #2a445a;
+}
+
+
+
+
+.masInfo {
+    color: rgba(255, 255, 255, 0.51)
+}
+
+
+
+
+.contenedoraHeader {
+    display: flex;
+    height: 5em;
+}
+
+
+
+
+
+.logo {
+    width: 30%;
+}
+
+
+
+
+
+.logoRF {
+    width: 60%;
+    margin-left: 15%
+}
+
+
+
+
+
+.menu {
+    width: 50%;
+}
+
+
+
+
+
+.buscador {
+    margin-left: 20px;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+.degradeTop {
+    height: 10px;
+    background: linear-gradient(to bottom, #717070, #ffffff);
+}
+
+
+
+
+
+.central {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+.contenedorMenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.contenedorMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+    padding-top: 45px;
+    padding-bottom: 12px;
+
+}
+
+.contenedorMenu a:hover {
+    background-color: rgb(105, 177, 239);
+    width: 100%;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
+    background-url: http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
+
+}
+
+
+.contenedorMenu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    transition-duration: 0.99s
+}
+
+
+
+
+.aSecciones {
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+.slider {
+    width: 100%;
+    margin-bottom: 170px;
+}
+.sliderTransparencia {
+    width: 100%;
+    margin-bottom: 170px;
+    opacity: 10%;
+}
+
+
+
+
+.tresSecciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    top: 315px;
+}
+.cincoSecciones {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    width: 90%;
+}
+
+
+
+
+
+.secciones1 {
+    width: 25%;
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.01), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    margin-left: 150px;
+}
+
+.enfermedadesimagen{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+.secciones2 {
+    width: 25%;
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.01), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+
+
+.secciones3 {
+    width: 25%;
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.01), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.888%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    margin-right: 150px;
+    
+
+}
+
+.secciones1Enfermedades {
+    width: 18%;
+    margin-top: -10px;
+    background-color: #69b1ef;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.888%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+;
+    
+
+}
+
+.secciones2Enfermedades {
+    width: 18%;
+    margin-top: -10px;
+     background-color: #69b1ef;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.888%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+  
+    
+
+}
+
+.secciones3Enfermedades {
+    width: 18%;
+    margin-top: -10px;
+    background-color: #69b1ef;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.888%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+   
+    
+}
+
+.secciones4Enfermedades {
+    width: 18%;
+    margin-top: -10px;
+     background-color: #69b1ef;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.888%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+
+    
+
+}
+
+.secciones5Enfermedades {
+    width: 18%;
+    margin-top: -10px;
+    background-color: #69b1ef;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.888%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+
+    
+
+}
+    
+    
+
+
+
+
+
+
+.iconoTelefono {
+    width: 10%;
+    text-align: center
+}
+
+
+
+
+
+.cientocuarentayocho {
+    width: 15%;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    padding: .5%;
+    margin-right: 30px;
+}
+
+
+
+
+
+.siTenes {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    color: #fff;
+    margin-left: 11px;
+}
+
+
+
+
+
+.buscador {
+
+    width: 16%;
+    padding: 45px 0px 15px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.buscadorEnfermedades {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.lupa {
+    background-color: #c3c0c0;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+   
+}
+
+.lupaEnfermedades {
+    background-color: #69b1ef;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+  
+    
+}
+
+
+
+
+
+.ingresoDeDatos {
+    height: 26px;
+    background-color: #e8eae9;
+      border-bottom-left-radius: 10px;
+}
+.ingresoDeDatosEnfermedades{
+    height: 26px;
+    background-color: #e8eae9;
+    width: 300px;
+     border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    color: #69b1ef;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+}
+.footerMenu li {
+    list-style: none;
+     margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+   
+}
+
+
+
+
+.redes {
+    width: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    align-items: center;
+}
+
+
+
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: #69b1ef;
+    font-weight: 900;
+    margin-left: 10px;
+    height: 10px;
+    line-height: 15px;
+}
+
+
+
+
+
+.direccionFacebook {
+    color: #69b1ef;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: 'Jost', sans-serif;
+    height: 10px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+
+
+
+}
+
+.fab {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.neon {
+    color: #e0dfdc;
+    background: #556677;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
