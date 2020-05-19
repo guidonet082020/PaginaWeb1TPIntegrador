@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-
 header {
     width: 100%;
     position: relative;
@@ -31,7 +29,6 @@ h3{
     font-family: 'Jost', sans-serif;
    text-align: center;
 }
-
 .hDeArticulosEnfermedades {
     font-size: 19px;
     color: #203d57;
@@ -55,22 +52,6 @@ h3{
     
 }
 
-
-
-.hDeArticulos {
-    font-size: 40px;
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-}
-
-
-
-
-
-.pDeArticulos {
-    font-size: 19px;
-    color: #2a445a;
-}
 .pDeArticulosEnfermedades {
     font-size: 12px;
     color: #2a445a;
@@ -81,14 +62,10 @@ h3{
     color: #2a445a;
     font-family: 'Jost', sans-serif;
 }
-
 .contenedoraHeader {
     display: flex;
     height: 5em;
 }
-
-
-
 .encuesta{
    margin-top: 20px;
     background-size: cover;
@@ -108,9 +85,6 @@ h3{
     
     
 }
-
-
-
 .hospitalesEspecializados{
     display: flex;
     flex-direction: row;
@@ -121,11 +95,6 @@ h3{
 .hospital{
     width: 200px;
 }
-
-
-
-
-
 .nombre{
     width: 40%;
     font-size: 11px;
@@ -150,7 +119,6 @@ h3{
     top: 90px;
 
 }
-
 .dni{
     width: 20%;
     font-size: 11px;
@@ -158,7 +126,6 @@ h3{
     left: 400px;
     top: 0;
 }
-
 .telefono{
     width: 20%;
     font-size: 11px;
@@ -166,8 +133,6 @@ h3{
     left: 10px;
     top: 40px;
 }
-
-
 .provincia{
     width: 20%;
     font-size: 11px;
@@ -175,8 +140,6 @@ h3{
     left: 200px;
     top: 40px;
 }
-
-
 .sexo{
     width: 20%;
     font-size: 11px;
@@ -184,8 +147,6 @@ h3{
     left: 400px;
     top: 44px;
 }
-
-
 .viaje{
     width: 20%;
     font-size: 11px;
@@ -193,7 +154,6 @@ h3{
     left: 100px;
     top: 0; 
 }
-
 .myButton{
     width: 21%;
     font-size: 11px;
@@ -201,25 +161,16 @@ h3{
     left: 400px;
     top: 238px; 
 }
-
-
-
-
-
 .logo {
     width: 30%;
 }
-
-
 .logoRF {
     width: 60%;
     margin-left: 15%
 }
-
 .menu {
     width: 50%;
 }
-
 .buscador {
 
     width: 16%;
@@ -231,17 +182,6 @@ h3{
     align-items: center;
     overflow: hidden;
 }
-.buscadorEnfermedades {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-
-
-
 
 .lupa {
     background-color: #c3c0c0;
@@ -253,25 +193,10 @@ h3{
    
 }
 
-.lupaEnfermedades {
-    background-color: #69b1ef;
-    width: 30px;
-    height: 30px;
-    padding-top: 7px;
-    box-sizing: border-box;
-    border-bottom-right-radius: 10px;
-    color: #fff;
-  
-    
-}
-
-
 .degradeTop {
     height: 10px;
     background: linear-gradient(to bottom, #717070, #ffffff);
 }
-
-
 .central {
     display: flex;
     flex-wrap: wrap;
@@ -283,20 +208,10 @@ h3{
   
 ;
 }
-
-
-
-
-
 .contenedorMenu ul {
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
 .contenedorMenu a {
     text-decoration: none;
     color: #69b1ef;
@@ -304,7 +219,6 @@ h3{
     padding-bottom: 12px;
 
 }
-
 .contenedorMenu a:hover {
     background-color: rgb(105, 177, 239);
     width: 100%;
@@ -317,8 +231,6 @@ h3{
     background-url: http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
 
 }
-
-
 .contenedorMenu li {
     list-style: none;
     text-align: center;
@@ -329,48 +241,9 @@ h3{
     width: 25%;
     transition-duration: 0.99s
 }
-
-
-
-
 .aSecciones {
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
-
-
-
-
-
-
-.slider {
-    width: 100%;
-    margin-bottom: 170px;
-}
-.sliderTransparencia {
-    width: 100%;
-    margin-bottom: 170px;
-    opacity: 0%;
-}
-
-.tresSecciones {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    top: 315px;
-}
-.cincoSecciones {
-    display: flex;
-   flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    width: 95%;
-    background-color: aqua
-}
-
 
 
 
@@ -385,19 +258,10 @@ h3{
     font-family: 'Jost', sans-serif;
     margin-left: 150px;
 }
-
 .enfermedadesimagen{
     width: 98.7%;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
 .secciones1Enfermedades {
     width: 20%;
     box-sizing: border-box;
@@ -406,7 +270,6 @@ h3{
     left: 10px;
     top: -10px;
 }
-
 .secciones2Enfermedades {
     width:30%;
     margin-top: 0;
@@ -421,7 +284,6 @@ h3{
     
 
 }
-
 .secciones3Enfermedades {
         width:47%;
     margin-top: 0;
@@ -430,62 +292,8 @@ h3{
     text-align:justify;
     font-family: 'Jost', sans-serif;
     position: absolute;
-     margin-left: 300px;
-  
-   
-    
+     margin-left: 300px;  
 }
-
-
-    
-
-
-    
-    
-
-
-
-
-
-
-.iconoTelefono {
-    width: 10%;
-    text-align: center
-}
-
-
-
-
-
-.cientocuarentayocho {
-    width: 15%;
-    font-family: 'Jost', sans-serif;
-    text-align: center;
-    font-weight: 900;
-    font-size: 70px;
-    color: #fff;
-    padding: .5%;
-    margin-right: 30px;
-}
-
-
-
-
-
-.siTenes {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Jost', sans-serif;
-    text-align: center;
-    font-weight: 900;
-    font-size: 26px;
-    color: #fff;
-    margin-left: 11px;
-}
-
-
-
-
 
 .buscador {
 
@@ -499,44 +307,11 @@ h3{
     overflow: hidden;
 }
 
-
-
-
-
-
-
-.lupaEnfermedades {
-    background-color: #69b1ef;
-    width: 30px;
-    height: 30px;
-    padding-top: 7px;
-    box-sizing: border-box;
-    border-bottom-right-radius: 10px;
-    color: #fff;
-  
-    
-}
-
-
-
-
-
-
 .ingresoDeDatos {
     height: 26px;
     background-color: #e8eae9;
       border-bottom-left-radius: 10px;
 }
-.ingresoDeDatosEnfermedades{
-    height: 26px;
-    background-color: #e8eae9;
-    width: 300px;
-     border-bottom-left-radius: 10px;
-}
-
-
-
-
 
 .footerText {
 
@@ -546,7 +321,6 @@ h3{
     padding: 5px 10px 10px 10px;
     width: 25%;
 }
-
 .footerMenu {
 
     font-family: 'Jost', sans-serif;
@@ -558,17 +332,11 @@ h3{
     list-style: none;
      margin-bottom: 5px;
 }
-
 .footerMenu a {
     text-decoration: none;
     color: #69b1ef;
    
 }
-
-
-
-
-
 .redes {
     width: 18%;
     display: flex;
@@ -576,11 +344,6 @@ h3{
     margin-right: 25px;
     align-items: center;
 }
-
-
-
-
-
 .whattsap {
     font-family: 'Jost', sans-serif;
     font-size: 20px;
@@ -590,11 +353,6 @@ h3{
     height: 10px;
     line-height: 15px;
 }
-
-
-
-
-
 .direccionFacebook {
     color: #69b1ef;
     font-weight: 500;
@@ -604,9 +362,6 @@ h3{
     font-size: 14px;
     line-height: 15px;
 }
-
-
-
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
@@ -636,29 +391,21 @@ h3{
 .radioButoonB{
     padding-right: 100px;
 }
-
 .radioButoonC{
     padding-right: 90px;
 }
-
 .radioButoonD{
     padding-right: 135px;
 }
-
 .radioButoonE{
     padding-right: 125px;
 }
-
 .radioButoonF{
     padding-right: 128px;
 }
 .radioButoonG{
     padding-right: 105px;
 }
-
-
-
-
 .tituloPrecauciones{
     font-size: 20px;
     color: #fff;
@@ -671,12 +418,7 @@ padding-left: 340px;
    padding-right: 340px;
     border-radius: 20px;
     margin-bottom: 5px;
-   
 }
-
-
-
-
 .grillaPrecauiciones{
     display: flex;
     justify-content: space-around;
@@ -686,10 +428,6 @@ padding-left: 340px;
     box-sizing:border-box;
     flex-wrap:wrap;
     width: 70%;
-    
-   
-
-
 }
 .imgPrecaucion{
     width: 100%;
@@ -726,8 +464,6 @@ padding-left: 340px;
     text-align: center;
     width: 100%;
 }
-
-
 .datoHospital{
     font-size: 12px;
     color: #fff;
@@ -736,13 +472,11 @@ padding-left: 340px;
     
     
 }
-
 .fotoHospital{
    margin-left: 200px; 
     width: 30%;
     
 }
-
 .mapaHospital{
     width: 30%;
    margin-top: 10px;
@@ -760,12 +494,6 @@ padding-left: 340px;
     
    
 }
-
-
-
-
-
-
 #nombre  {
     border-radius: 10px;
 }

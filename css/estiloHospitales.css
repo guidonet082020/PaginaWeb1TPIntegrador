@@ -3,14 +3,10 @@
     margin: 0;
 }
 
-
-
 header {
     width: 100%;
     position: relative;
 }
-
-
 
 footer {
     width: 95%;
@@ -25,62 +21,27 @@ footer {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 .contenedoraHeader {
     display: flex;
     height: 5em;
 }
 
-
-
-
-
-
-
-.hospitalesEspecializados{
+.hospitalesEspecializados {
     display: flex;
     flex-direction: row;
+
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.hospital{
+
+.hospital {
     width: 200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .logo {
     width: 30%;
 }
-
 
 .logoRF {
     width: 60%;
@@ -92,54 +53,35 @@ footer {
 }
 
 .buscador {
-
-    width: 16%;
-    padding: 45px 0px 15px 0px;
-    text-align: center;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+    padding: 45px 0px 15px 0px;
+    width: 16%;
+    text-align: center;
+
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
 }
-
-
-
-
 
 .lupa {
-    background-color: #c3c0c0;
+    box-sizing: border-box;
+    padding-top: 7px;
     width: 30px;
     height: 30px;
-    padding-top: 7px;
-    box-sizing: border-box;
     border-bottom-right-radius: 10px;
-   
+    background-color: #c3c0c0;
 }
-
-
-
 
 .degradeTop {
     height: 10px;
     background: linear-gradient(to bottom, #717070, #ffffff);
 }
 
-
-
-
-
-
-
-
 .contenedorMenu ul {
     display: flex;
     justify-content: center;
 }
-
-
-
-
 
 .contenedorMenu a {
     text-decoration: none;
@@ -158,10 +100,8 @@ footer {
     -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.66);
     -moz-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
     box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.66);
-    background-url: http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
-
+    background-url: http: //api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=cccccc&density=19&opacity=73;
 }
-
 
 .contenedorMenu li {
     list-style: none;
@@ -174,29 +114,11 @@ footer {
     transition-duration: 0.99s
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ingresoDeDatos {
     height: 26px;
     background-color: #e8eae9;
-      border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-
-
-
-
 
 .footerText {
 
@@ -207,68 +129,45 @@ footer {
     width: 25%;
 }
 
-
-
-
-
 .redes {
-    width: 18%;
     display: flex;
-    flex-wrap: wrap;
     margin-right: 25px;
+    width: 18%;
+
+    flex-wrap: wrap;
     align-items: center;
 }
 
-
-
-
-
 .whattsap {
-    font-family: 'Jost', sans-serif;
-    font-size: 20px;
-    color: #69b1ef;
-    font-weight: 900;
     margin-left: 10px;
     height: 10px;
+    color: #69b1ef;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
     line-height: 15px;
 }
-
-
-
-
 
 .direccionFacebook {
+    margin-left: 15px;
+    height: 10px;
     color: #69b1ef;
     font-weight: 500;
-    margin-left: 15px;
-    font-family: 'Jost', sans-serif;
-    height: 10px;
     font-size: 14px;
+    font-family: 'Jost', sans-serif;
     line-height: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.hospitalesEspecializados{
+.hospitalesEspecializados {
     background-color: #69b1ef;
     width: 95%;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-
-    
 }
-.tituloHospitales{
+
+.tituloHospitales {
     font-size: 20px;
     color: #fff;
     font-family: 'Jost', sans-serif;
@@ -277,54 +176,43 @@ footer {
     margin: 12px 0px;
 }
 
-
-.datoHospital{
+.datoHospital {
     font-size: 12px;
     color: #fff;
     font-family: 'Jost', sans-serif;
     width: 55%;
-    
-    
 }
 
 .footerMenu {
-
-    font-family: 'Jost', sans-serif;
-    font-size: 10px;
     padding: 5px 10px 10px 10px;
     width: 25%;
+    font-size: 10px;
+    font-family: 'Jost', sans-serif;
 }
+
 .footerMenu li {
+    margin-bottom: 5px;
     list-style: none;
-     margin-bottom: 5px;
 }
 
 .footerMenu a {
-    text-decoration: none;
     color: #69b1ef;
-   
+    text-decoration: none;
 }
 
-
-.mapaHospital{
-  width: 100%
-   margin-top: 10px;
-    margin-left:auto;
-    margin-right:auto;
-    
+.mapaHospital {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100% margin-top: 10px;
 }
-.hospital{
+
+.hospital {
     border-radius: 10px;
 }
-.mapaGoogle{
 
-    border-radius: 20px;
+.mapaGoogle {
     margin-bottom: 5px;
-    
-   
+    border-radius: 20px;
 }
-
-
-
 
 
