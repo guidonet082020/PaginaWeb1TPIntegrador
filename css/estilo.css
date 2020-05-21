@@ -7,7 +7,7 @@ body{
 }
 
 header {
-    max-width:  width: 100%;
+    max-width:100%;
     position: relative;
 }
 
@@ -303,7 +303,7 @@ footer {
 
 .slider {
     width: 100%;
-    margin-bottom: 170px;
+    margin-bottom: 10em;
 }
 
 .sliderTransparencia {
