@@ -252,7 +252,7 @@ h1 {
 
 .neon {
     background: #000;
-  
+
     margin: auto;
     border-radius: 1em;
 }
@@ -304,32 +304,7 @@ h1 {
     width: 100%;
 }
 
-.whattsap {
-    font-family: 'Jost', sans-serif;
-    font-size: 1.2em;
-    color: #69b1ef;
-    font-weight: 600;
-    height: 10px;
-    line-height: 15px;
-    margin-right: 10%;
-}
 
-.direccionFacebook {
-    color: #69b1ef;
-    font-family: 'Jost', sans-serif;
-    font-size: 1.5em;
-    line-height: 1em;
-    margin-right: 20%;
-}
-
-.redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 1em;
-    margin-left: .5em;
-}
 
 .contenedorMenuWeb {
     display: none;
@@ -347,9 +322,9 @@ h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-                background-color: #ede8e8;
+    background-color: #ede8e8;
 
-            border-radius: .5em;
+    border-radius: .5em;
 }
 
 
@@ -478,7 +453,7 @@ h1 {
 
 .whattsap {
     font-family: 'Jost', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #69b1ef;
     font-weight: 600;
     height: 10px;
@@ -489,7 +464,7 @@ h1 {
 .direccionFacebook {
     color: #69b1ef;
     font-family: 'Jost', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1em;
     margin-right: 20%;
 }
@@ -584,16 +559,18 @@ h1 {
         display: block;
         width: 100%;
     }
-    .enf{   background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.4), rgba(105, 177, 239, 0.0));
+
+    .enf {
+        background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.4), rgba(105, 177, 239, 0.0));
         color: #fff;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: block;
         width: 100%;
-     
+
     }
-    
- 
+
+
 
     .contenedorMenuWeb li {
         list-style: none;
@@ -629,23 +606,22 @@ h1 {
 
     .col {
         display: grid;
-     
+
         margin: auto;
-        grid-template-columns:repeat (1fr);
+        grid-template-columns: repeat (1fr);
         grid-template-rows: max-contains;
-        
+
 
     }
-    
-   .h1 {
+
+    .h1 {
         grid-column: 1 /4;
         grid-row: 1;
-       
+
         margin-left: 2em;
         margin-right: 2em;
         border-radius: 1em;
-        height:3.5em
-
+        height: 3.5em
     }
 
     .buscadorEnfermedades {
@@ -656,12 +632,12 @@ h1 {
 
     }
 
- 
+
 
     .secciones1Enfermedades {
 
         grid-column: 2 /2;
-      margin: 2% 2% 2% 2%;
+        margin: 2% 2% 2% 2%;
         background-color: rgb(105, 177, 239);
         border-radius: 1em;
 
@@ -673,35 +649,37 @@ h1 {
         margin: 2% 2% 2% 2%;
         background-color: rgb(105, 177, 239);
         border-radius: 1em;
-    
+
     }
 
     .secciones3Enfermedades {
 
         grid-column: 2 /4;
-        margin: 0;
+        margin: 2% 2% 2% 2%;
         background-color: rgb(105, 177, 239);
         border-radius: 1em;
-        margin: auto
+
+
     }
+
 
     .secciones4Enfermedades {
 
         grid-column: 2 /2;
-      margin: 2% 2% 2% 2%;
+        margin: 2% 2% 2% 2%;
         background-color: rgb(105, 177, 239);
         border-radius: 1em;
-        
-        
+
+
     }
 
     .secciones5Enfermedades {
 
         grid-column: 3 /4;
-       margin: 2% 2% 2% 2%;
+        margin: 2% 2% 2% 2%;
         background-color: rgb(105, 177, 239);
         border-radius: 1em;
-        
+
     }
 
 
@@ -952,16 +930,16 @@ h1 {
         .cincoSecciones {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1f 1fr;
-            grid-template-rows:max-contains;
+            grid-template-rows: max-contains;
             margin-left: 3em;
             margin-right: 3em;
-         
-        
+
+
             margin-bottom: 1em;
-         
-       
-            
-                
+
+
+
+
 
 
 
@@ -976,13 +954,13 @@ h1 {
 
         }
 
-        .aSecciones {}
+
 
         .h1 {
             grid-column: 1 /6;
             grid-row: 1;
             border-radius: 1em;
-            
+
 
         }
 
@@ -991,7 +969,7 @@ h1 {
             grid-row: 3;
             padding: 0;
             background-color: rgb(105, 177, 239) border-radius: 1em;
-            
+
 
 
 
@@ -1012,8 +990,8 @@ h1 {
             grid-column: 3 /3;
             grid-row: 3;
             padding: 0;
-            background-color: rgb(105, 177, 239) border-radius: 1em;
-            
+            background-color: #69b1ef border-radius: 1em;
+
         }
 
         .secciones4Enfermedades {
@@ -1054,7 +1032,7 @@ h1 {
 
         .neon {
 
-            
+
             margin: auto;
             border-radius: 1em;
 
@@ -1117,7 +1095,7 @@ h1 {
 
         /* SECCIONES */
 
-  
+
 
         .aSecciones {
             text-decoration: none;
